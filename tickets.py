@@ -15,8 +15,7 @@ if ticket > 3:
     discount = 0.9
     print('Сумма к оплате на', ticket, 'чел:', round(discount * price), 'рублёв. С учетом скидки 10 %.')
 else:
-    discount = 1
-    print('Сумма к оплате на', ticket, 'чел:', round(discount * price), 'рублёв')
+    print('Сумма к оплате на', ticket, 'чел:', price, 'рублёв')
 
             
 ### VAR2
