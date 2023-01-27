@@ -31,7 +31,7 @@ for i in range(ticket):
                 # Цикл будет повторяться до правильного ввода:
                 count -= 1
                 print("Нужно ввести число! Попробуйте снова...")
-                continue
+                
             else:
                 if age < 18:
                     price += 0
@@ -39,7 +39,7 @@ for i in range(ticket):
                     price += 990
                 else:
                     price += 1390
-                break
+                
     if ticket > 3:
         discount = 0.9
     else:
